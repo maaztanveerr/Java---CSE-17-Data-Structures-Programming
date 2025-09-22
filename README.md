@@ -1,1 +1,1 @@
-# Java---CSE-17-Data-Structures-Programming
+# Java-CSE-17-Data-Structures
