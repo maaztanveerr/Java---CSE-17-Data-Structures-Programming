@@ -1,0 +1,113 @@
+62423 movies read from the file
+
+Hash table characteristics (Separate Chaining)
+HashTable capacity: 131072
+HashTable size: 62423
+Total number of collisions: 6384
+Number of buckets: 56039
+Size of the largest bucket: 2
+Size of the smallest bucket: 1
+
+Hash table characteristics (Linear Probing)
+HashTable capacity: 131072
+HashTable size: 62423
+Total number of collisions: 9599
+Number of clusters: 36556
+Size of the largest cluster: 14729
+Size of the smallest cluster: 1
+
+Results of the search operation in the two hashmaps
+Id      Title                                                   Iterations(SC:get)      Iterations(LP:get)  
+1544    "Lost World: Jurassic Park                              1                       1                   
+2156    "Best Man                                               1                       1                   
+31349   I Married a Witch (1942)                                1                       1                   
+3048    Under the Rainbow (1981)                                1                       1                   
+4001    Code of Silence (1985)                                  1                       1                   
+356     Forrest Gump (1994)                                     1                       1                   
+5672    Pokemon 4 Ever (a.k.a. Pokémon 4: The Movie) (2002)     1                       1                   
+6287    Anger Management (2003)                                 1                       1                   
+25738   "Last of the Mohicans                                   1                       1                   
+26      Othello (1995)                                          1                       1                   
+
+Results of the remove operation in the two hashmaps
+Id      Title                                                   Iterations(SC:remove)   Iterations(LP:remove)
+1544    "Lost World: Jurassic Park                              1                       26369               
+2156    "Best Man                                               1                       25143               
+31349   I Married a Witch (1942)                                1                       11                  
+3048    Under the Rainbow (1981)                                1                       23355               
+4001    Code of Silence (1985)                                  1                       21445               
+356     Forrest Gump (1994)                                     1                       28733               
+5672    Pokemon 4 Ever (a.k.a. Pokémon 4: The Movie) (2002)     1                       18099               
+6287    Anger Management (2003)                                 1                       16865               
+25738   "Last of the Mohicans                                   1                       2929                
+26      Othello (1995)                                          1                       29385               
+
+Hash table characteristics (Separate Chaining)
+HashTable capacity: 131072
+HashTable size: 62413
+Total number of collisions: 6384
+Number of buckets: 56036
+Size of the largest bucket: 2
+Size of the smallest bucket: 1
+
+Hash table characteristics (Linear Probing)
+HashTable capacity: 131072
+HashTable size: 62413
+Total number of collisions: 61028
+Number of clusters: 36561
+Size of the largest cluster: 14718
+Size of the smallest cluster: 1
+
+Sorting the movies from the hashtable with separate chaining
+
+Lowest Ten movies with 10,000 ratings or more
+Id      Title                                                   Number of ratings       Average rating
+2701    Wild Wild West (1999)                                   11723                   2.3       
+173     Judge Dredd (1995)                                      14758                   2.6       
+435     Coneheads (1993)                                        13194                   2.6       
+160     Congo (1995)                                            13853                   2.6       
+19      Ace Ventura: When Nature Calls (1995)                   21552                   2.6       
+44      Mortal Kombat (1995)                                    10629                   2.7       
+784     "Cable Guy                                              14457                   2.7       
+3785    Scary Movie (2000)                                      11473                   2.7       
+2054    "Honey                                                  16092                   2.7       
+432     City Slickers II: The Legend of Curly's Gold (1994)     11729                   2.7       
+
+Highest Ten movies with 10,000 ratings or more
+Id      Title                                                   Number of ratings       Average rating
+318     "Shawshank Redemption                                   81482                   4.4       
+858     "Godfather                                              52498                   4.3       
+50      The Usual Suspects (1995)                               55366                   4.3       
+1221    "Godfather: Part II                                     34188                   4.3       
+2019    Seven Samurai (Shichinin no samurai) (1954)             13367                   4.3       
+527     Schindler's List (1993)                                 60411                   4.2       
+1203    12 Angry Men (1957)                                     16569                   4.2       
+904     Rear Window (1954)                                      20162                   4.2       
+2959    Fight Club (1999)                                       58773                   4.2       
+
+Sorting the movies from the hashtable with linear probing
+
+Lowest Ten movies with 10,000 ratings or more
+Id      Title                                                   Number of ratings       Average rating
+2701    Wild Wild West (1999)                                   11723                   2.3       
+173     Judge Dredd (1995)                                      14758                   2.6       
+435     Coneheads (1993)                                        13194                   2.6       
+160     Congo (1995)                                            13853                   2.6       
+19      Ace Ventura: When Nature Calls (1995)                   21552                   2.6       
+44      Mortal Kombat (1995)                                    10629                   2.7       
+784     "Cable Guy                                              14457                   2.7       
+3785    Scary Movie (2000)                                      11473                   2.7       
+2054    "Honey                                                  16092                   2.7       
+432     City Slickers II: The Legend of Curly's Gold (1994)     11729                   2.7       
+
+Highest Ten movies with 10,000 ratings or more
+Id      Title                                                   Number of ratings       Average rating
+318     "Shawshank Redemption                                   81482                   4.4       
+858     "Godfather                                              52498                   4.3       
+50      The Usual Suspects (1995)                               55366                   4.3       
+1221    "Godfather: Part II                                     34188                   4.3       
+2019    Seven Samurai (Shichinin no samurai) (1954)             13367                   4.3       
+527     Schindler's List (1993)                                 60411                   4.2       
+1203    12 Angry Men (1957)                                     16569                   4.2       
+904     Rear Window (1954)                                      20162                   4.2       
+2959    Fight Club (1999)                                       58773                   4.2 

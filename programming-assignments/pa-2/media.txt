@@ -1,0 +1,19 @@
+Song,Time After Time,Pop Rock,1983,3500,Cyndi Lauper
+Movie,Titanic,Drama,1997,30000000,James Cameron,2264743305
+Song,Help,Rock,1965,885,The Beatles
+Movie,A Beautiful Mind,Drama,2001,25000000,Ron Howard,313000000
+Song,Rhythm Nation,Pop,1989,775,Janet Jackson
+Movie,Avatar,Action,2009,50000000,James Cameron,2923706026
+Song,Beat It,Pop,1982,1200,Michael Jackson
+Movie,Harry Potter and the Deathly Hallows,Supernatural,2000,27500000,David Yates,1356841356
+Movie,Inside Out 2,Animation,2024,35500000,Kelsey Mann,1460000000
+Song,Espresso,Pop,2024,5000,Sabrina Carpenter
+Song,Money Money Money,Pop,1976,3200,ABBA
+Song,Don't Stop Me Now,Pop Rock,1979,1500,Queen
+Movie,Kill Bill,Action,2003,4000000,Quentin Tarantino,74727492
+Song,505,Rock,2007,34000,Arctic Monkeys
+Movie,The GodFather,Crime,1972,75000000,Francis Copolla,291000000
+Movie,Spirited Away,Animation,2001,5000000,Hayao Miyasaki,396000000
+Song,From the Start,Mix,2023,5000000,Laufy
+Song,Fly Me to the Moon,Jazz,1964,350000,Frank Sinatra
+Movie,Everything Everywhere All At Once,Drama,2022,78000000,Kwan and Scheinert,143000000

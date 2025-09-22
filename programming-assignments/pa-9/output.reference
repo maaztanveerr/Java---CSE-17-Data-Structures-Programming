@@ -1,0 +1,82 @@
+TreeMap with natural ordering
+
+Test case 1: Tree constructued correctly 
+(Begonia, [pink, red, yellow, orange, purple]) (Camelia, [white, pink, red, yellow]) (Chrysanthemum, [white, yellow, orange, red, purple, pink]) (Cosmos, [pink, white, red, orange, yellow]) (Dahlia, [white, pink, red, yellow, orange, purple]) (Daisy, [white, yellow, purple, red, orange, blue]) (Geranium, [white, red, pink, purple, orange]) (Hyacinth, [purple, blue, pink, red, orange, yellow, white]) (Iris, [purple, blue]) (Jasmin, [white, yellow, pink]) (Lavender, [purple]) (Lily, [orange, pink, white, purple]) (Magnolia, [white, pink, purple, yellow, red]) (Narcissus, [white, yellow, pink, orange]) (Rose, [pink, white, yellow, red, blue, orange]) (Tulip, [red, pink, yellow, orange, purple, white]) (Violet, [purple, blue]) (Yew, [green, yellow]) 
+
+Test case 2: Method contains (successful)
+Tree contains "Rose"? true
+
+Test case 3: Method contains (fail)
+Tree contains "Coquelicot"? false
+
+Test case 4: Method remove (successful)
+'Narcissus" removed? true
+
+Test case 5: Method contains (fail)
+"Musk" removed? false
+
+Test case 6: Method first
+First: (Begonia, [pink, red, yellow, orange, purple])
+
+Test case 7: Method last
+Last : (Yew, [green, yellow])
+
+Test case 8: Method ceiling (succesful)
+Ceiling("Daisy") : (Daisy, [white, yellow, purple, red, orange, blue])
+
+Test case 9: Method ceiling (fail)
+Ceiling("Zebra") : null
+
+Test case 10: Method floor (successful)
+floor("Iris") : (Iris, [purple, blue])
+
+Test case 11: Method floor (fail)
+floor("Art") : null
+
+Testcase 12: Method keys
+List of flowers : [Begonia, Camelia, Chrysanthemum, Cosmos, Dahlia, Daisy, Geranium, Hyacinth, Iris, Jasmin, Lavender, Lily, Magnolia, Rose, Tulip, Violet, Yew]
+
+Testcase 13: Method values
+List of colors : [[pink, red, yellow, orange, purple], [white, pink, red, yellow], [white, yellow, orange, red, purple, pink], [pink, white, red, orange, yellow], [white, pink, red, yellow, orange, purple], [white, yellow, purple, red, orange, blue], [white, red, pink, purple, orange], [purple, blue, pink, red, orange, yellow, white], [purple, blue], [white, yellow, pink], [purple], [orange, pink, white, purple], [white, pink, purple, yellow, red], [pink, white, yellow, red, blue, orange], [red, pink, yellow, orange, purple, white], [purple, blue], [green, yellow]]
+
+
+TreeMap with a comparator
+
+Test case 14: Tree constructued correctly 
+(Begonia, [pink, red, yellow, orange, purple]) (Geranium, [white, red, pink, purple, orange]) (Cosmos, [pink, white, red, orange, yellow]) (Dahlia, [white, pink, red, yellow, orange, purple]) (Jasmin, [white, yellow, pink]) (Camelia, [white, pink, red, yellow]) (Violet, [purple, blue]) (Lavender, [purple]) (Narcissus, [white, yellow, pink, orange]) (Chrysanthemum, [white, yellow, orange, red, purple, pink]) (Hyacinth, [purple, blue, pink, red, orange, yellow, white]) (Magnolia, [white, pink, purple, yellow, red]) (Yew, [green, yellow]) (Iris, [purple, blue]) (Lily, [orange, pink, white, purple]) (Rose, [pink, white, yellow, red, blue, orange]) (Daisy, [white, yellow, purple, red, orange, blue]) (Tulip, [red, pink, yellow, orange, purple, white]) 
+
+Test case 15: Method contains (successful)
+Tree contains "Rose"? true
+
+Test case 16: Method contains (fail)
+Tree contains "Coquelicot"? false
+
+Test case 17: Method remove (successful)
+"Narcissus" removed? true
+
+Test case 18: Method contains (fail)
+"Musk" removed? false
+
+Test case 19: Method first
+First: (Begonia, [pink, red, yellow, orange, purple])
+
+Test case 20: Method last
+Last : (Tulip, [red, pink, yellow, orange, purple, white])
+
+Test case 21: Method ceiling (succesful)
+Ceiling("Daisy") : (Daisy, [white, yellow, purple, red, orange, blue])
+
+Test case 22: Method ceiling (long string)
+Ceiling("This string is long to get a different hash code") : null
+
+Test case 23: Method floor (successful)
+floor("Iris") : (Iris, [purple, blue])
+
+Test case 24: Method floor (short string)
+floor("0") : (Magnolia, [white, pink, purple, yellow, red])
+
+Testcase 25: Method keys
+List of flowers : [Begonia, Geranium, Cosmos, Dahlia, Jasmin, Camelia, Violet, Lavender, Chrysanthemum, Hyacinth, Magnolia, Yew, Iris, Lily, Rose, Daisy, Tulip]
+
+Testcase 26: Method values
+List of colors : [[pink, red, yellow, orange, purple], [white, red, pink, purple, orange], [pink, white, red, orange, yellow], [white, pink, red, yellow, orange, purple], [white, yellow, pink], [white, pink, red, yellow], [purple, blue], [purple], [white, yellow, orange, red, purple, pink], [purple, blue, pink, red, orange, yellow, white], [white, pink, purple, yellow, red], [green, yellow], [purple, blue], [orange, pink, white, purple], [pink, white, yellow, red, blue, orange], [white, yellow, purple, red, orange, blue], [red, pink, yellow, orange, purple, white]]

@@ -1,0 +1,85 @@
+Test case 1: create a new media list
+A new media list was created with 0 media
+
+Test case 2: add new media (successful)
+10 media added to the media list 
+
+Test case 3: add new media (fail)
+The media list is full. Cannot add new media
+
+Test case 4: find media by title (successful)
+Media found with title "Beat It": 
+Song    Beat It                                 Pop             1982    1200            Michael Jackson
+
+Test case 5: find media by title (fail)
+No media found with title "Love" 
+
+Test case 6: find media by category (one media found)
+1 media found with category "Action" 
+Movie   Avatar                                  Action          2009    50000000        James Cameron   $2,923,706,026.00
+
+Test case 7: find media by category (more than one media found)
+3 media found with category "Pop"
+Song    Rhythm Nation                           Pop             1989    775             Janet Jackson  
+Song    Beat It                                 Pop             1982    1200            Michael Jackson
+Song    Espresso                                Pop             2024    5000            Sabrina Carpenter
+
+Test case 8: find media by category (no media found)
+No media found with category "Fantasy"
+
+Test case 9: find media by year (one media found)
+1 media found in the year 2000
+Movie   Harry Potter and the Deathly Hallows    Supernatural    2000    27500000        David Yates     $1,356,841,356.00
+
+Test case 10: find media by year (more than one media found)
+2 media found in the year 2024
+Movie   Inside Out 2                            Animation       2024    35500000        Kelsey Mann     $1,460,000,000.00
+Song    Espresso                                Pop             2024    5000            Sabrina Carpenter
+
+Test case 11: find media by year (no media found)
+No media found in the year 1980
+
+Test case 12: remove media (successful)
+Media found with title "Time After Time"
+Media removed successfully
+
+Test case 13: remove media (fail)
+Media with title "Love" not found
+
+Test case 14: view the list of media
+Type    Title                                   Category        Year    Size(KB)        Artist/Director Revenue
+Movie   Titanic                                 Drama           1997    30000000        James Cameron   $2,264,743,305.00
+Song    Help                                    Rock            1965    885             The Beatles    
+Movie   A Beautiful Mind                        Drama           2001    25000000        Ron Howard      $313,000,000.00
+Song    Rhythm Nation                           Pop             1989    775             Janet Jackson  
+Movie   Avatar                                  Action          2009    50000000        James Cameron   $2,923,706,026.00
+Song    Beat It                                 Pop             1982    1200            Michael Jackson
+Movie   Harry Potter and the Deathly Hallows    Supernatural    2000    27500000        David Yates     $1,356,841,356.00
+Movie   Inside Out 2                            Animation       2024    35500000        Kelsey Mann     $1,460,000,000.00
+Song    Espresso                                Pop             2024    5000            Sabrina Carpenter
+
+
+Test case 15: sort the list by title
+Type    Title                                   Category        Year    Size(KB)        Artist/Director Revenue
+Movie   A Beautiful Mind                        Drama           2001    25000000        Ron Howard      $313,000,000.00
+Movie   Avatar                                  Action          2009    50000000        James Cameron   $2,923,706,026.00
+Song    Beat It                                 Pop             1982    1200            Michael Jackson
+Song    Espresso                                Pop             2024    5000            Sabrina Carpenter
+Movie   Harry Potter and the Deathly Hallows    Supernatural    2000    27500000        David Yates     $1,356,841,356.00
+Song    Help                                    Rock            1965    885             The Beatles    
+Movie   Inside Out 2                            Animation       2024    35500000        Kelsey Mann     $1,460,000,000.00
+Song    Rhythm Nation                           Pop             1989    775             Janet Jackson  
+Movie   Titanic                                 Drama           1997    30000000        James Cameron   $2,264,743,305.00
+
+
+Test case 16: sort the list by category
+Type    Title                                   Category        Year    Size(KB)        Artist/Director Revenue
+Movie   Avatar                                  Action          2009    50000000        James Cameron   $2,923,706,026.00
+Movie   Inside Out 2                            Animation       2024    35500000        Kelsey Mann     $1,460,000,000.00
+Movie   A Beautiful Mind                        Drama           2001    25000000        Ron Howard      $313,000,000.00
+Movie   Titanic                                 Drama           1997    30000000        James Cameron   $2,264,743,305.00
+Song    Beat It                                 Pop             1982    1200            Michael Jackson
+Song    Espresso                                Pop             2024    5000            Sabrina Carpenter
+Song    Rhythm Nation                           Pop             1989    775             Janet Jackson  
+Song    Help                                    Rock            1965    885             The Beatles    
+Movie   Harry Potter and the Deathly Hallows    Supernatural    2000    27500000        David Yates     $1,356,841,356.00

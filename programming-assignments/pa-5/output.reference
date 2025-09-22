@@ -1,0 +1,98 @@
+
+Test case 1: Arithmetic on Fractions
+1/2 + 3/2 = 2
+1/2 - 3/2 = -1
+1/2 * 3/2 = 3/4
+1/2 / 3/2 = 1/3
+
+Test case 2: Arithmetic on Fractions
+2/3 + 3/5 = 19/15
+2/3 - 3/5 = 1/15
+2/3 * 3/5 = 2/5
+2/3 / 3/5 = 10/9
+
+Test case 3: Arithmetic on Fractions
+1/4 + 3/4 = 1
+1/4 - 3/4 = -1/2
+1/4 * 3/4 = 3/16
+1/4 / 3/4 = 1/3
+
+Test case 4: Arithmetic on Fractions
+1/2 + 1/3 = 5/6
+1/2 - 1/3 = 1/6
+1/2 * 1/3 = 1/6
+1/2 / 1/3 = 3/2
+
+
+Test case 5: Generic print method
+List of Numbers
+821208959
+3
+6.729429491877316E39
+5.927001520587111E19
+5.642407955604967E19
+943903808
+3/5
+1/3
+562454341
+2968421451
+8735968381
+9/8
+1.9950150441049965E39
+298303607
+1.192836187927474E19
+96346464
+1.8563955515273757E39
+1.970726314358049E39
+8.282701771649248E19
+2932449542
+2/3
+110272943
+2.0368346095857005E39
+8.2071802888688097E18
+2851185094
+
+
+Test case 6: Generic Search Method (fail)
+Number 3/4 not found.
+
+Test case 7: Generic Search Method (success)
+Number 5.642407955604967E19 found at index 4
+
+Test case 8: Generic Search Method (success)
+Number 2968421451 found at index 9
+
+Test case 9: Generic Search Method (success)
+Number 1.9950150441049965E39 found at index 12
+
+Test case 10: Generic Search Method (fail)
+Number 35.75 not found.
+
+
+Test case 11: Generic Sort Method with a Comparator
+List of Numbers sorted by their double values
+1/3
+3/5
+2/3
+9/8
+3
+96346464
+110272943
+298303607
+562454341
+821208959
+943903808
+2851185094
+2932449542
+2968421451
+8735968381
+8.2071802888688097E18
+1.192836187927474E19
+5.642407955604967E19
+5.927001520587111E19
+8.282701771649248E19
+1.8563955515273757E39
+1.970726314358049E39
+1.9950150441049965E39
+2.0368346095857005E39
+6.729429491877316E39
