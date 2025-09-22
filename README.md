@@ -5,17 +5,6 @@ It serves as a portfolio of my work in **Java**, covering foundational topics in
 
 ---
 
-## Repository Structure
-
-java/
-└── cse17/
-├── pa1/ # Media Manager (intro to OOP, classes, arrays)
-├── pa5/ # Rational Numbers & Generic Utilities (generics, interfaces, comparators)
-├── pa9/ # TreeMap & TreeSet (binary search trees, custom comparators)
-└── pa10/ # HashMap Implementations (linear probing, separate chaining, performance testing)
-
----
-
 ## Highlights
 
 - **Object-Oriented Design**: Implemented custom classes with encapsulation, inheritance, and polymorphism.  
